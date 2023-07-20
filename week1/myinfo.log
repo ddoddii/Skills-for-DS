@@ -2,3 +2,7 @@ INFO:MyLog:[{'label': 'joy', 'score': 0.9845489263534546}]
 INFO:MyLog:{'file_name': 'text1', 'label': 'joy', 'score': 0.9656283855438232}
 INFO:MyLog:{'file_name': 'text3', 'label': 'anger', 'score': 0.9823558926582336}
 INFO:MyLog:{'file_name': 'text2', 'label': 'grief', 'score': 0.809184730052948}
+INFO:MyLog:[{'label': 'joy', 'score': 0.9845489263534546}]
+INFO:MyLog:{'file_name': 'text1', 'label': 'joy', 'score': 0.9656283855438232}
+INFO:MyLog:{'file_name': 'text3', 'label': 'anger', 'score': 0.9823558926582336}
+INFO:MyLog:{'file_name': 'text2', 'label': 'grief', 'score': 0.809184730052948}

@@ -18,7 +18,7 @@ logger.addHandler(stream_handler)
 # API URL
 url = "https://business.juso.go.kr/addrlink/addrLinkApi.do"
 
-# Parameters
+# Parameters  
 confmKey = "devU01TX0FVVEgyMDIzMDcxODE0MDUxNDExMzkzODk="
 currentPage = 1
 countPerPage = 10
@@ -54,4 +54,3 @@ else:
 for i in range(10):
     road_addr = parsed_data['results']['juso'][i]['roadAddr']
     logger.info(road_addr)
-    

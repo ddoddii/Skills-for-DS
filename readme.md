@@ -3,7 +3,7 @@
 
 |날짜|강의내용|youtube|
 |---|---|---|
-|7/19|python tips & API||
+|7/19|python tips & API|[week1](https://www.youtube.com/watch?v=aehxiqKv0Pk)|
 |7/26|Linux & Docker||
 |8/2|Kubernetes||
 |8/9|AWS & GCP||

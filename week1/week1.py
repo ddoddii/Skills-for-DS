@@ -4,7 +4,6 @@ import logging
 import os
 import csv
 
-
 """ 
 1. ArgumentParser 설정 
 """
@@ -22,7 +21,6 @@ if conf.text is None:
 elif conf.text.endswith(".txt"):
     with open(conf.text, 'r', encoding='utf-8') as f:
         text = f.read()
-        
 
 """ 
 2. Logger 설정
@@ -57,7 +55,7 @@ logger.info(emotion_labels)
 
 
 """ 
-Q1. debug 수준은 출력될까 ? 
+Q1. debug 수준은 출력될까 ? -> 출력안된다 !
 """ 
 debug_test = "hi I am debug"
 logger.debug(debug_test)
@@ -116,3 +114,4 @@ with open(output_file, 'w', newline='',encoding='utf-8-sig') as csv_file:
         writer.writerow(result)
 
 print('Results saved to', output_file)
+
