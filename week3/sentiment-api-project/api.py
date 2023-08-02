@@ -17,21 +17,29 @@ stream_handler.setFormatter(formatter)
 logger.addHandler(stream_handler) 
 
 app = FastAPI(title = "Soeun's Sentiment Analysis",
-              version = "1.0")
+            version = "1.0")
 
-class SentimentRequset(BaseModel):
-    text : str = Field(min_length=3)
+class SentimentRequest(BaseModel):
+    text : str = ""
+    class Config:
+        schema_extra = {
+            'example': {
+            'text' : 'Put in text to sentiment analysis'
+            }
+        }
+
 
 class SentimentResult(BaseModel):
+    sentence : str = ""
     label_1 : str = ""
-    score_1 : int = ""
+    score_1 : float = ""
     label_2 : str = ""
-    score_2 : int = ""
+    score_2 : float = ""
 
 @app.post('/sentiment')
-async def root(payload: SentimentRequset):
-    if len(payload.text) <= 0:
-        raise HTTPException(status_code = 201, detail = "Please put in valid text")
+async def root(payload: SentimentRequest):
+    if len(payload.text) <= 3:
+        raise HTTPException(status_code = 401, detail = "Please put in valid text")
         
     try:
         label_1, label_2 ,score_1, score_2 = sentiment(payload.text)
@@ -45,3 +53,5 @@ async def root(payload: SentimentRequset):
     except Exception as e:
         logger.error("Exception:"+str(e))
         raise HTTPException(status_code = 404, detail=f"Exception Error: {e}")
+    
+    

@@ -1,7 +1,6 @@
 from fastapi import FastAPI, Body
 import logging
 
-from main import sentiment
 
 logger = logging.getLogger(name='MyLog')
 logger.setLevel(logging.INFO)
