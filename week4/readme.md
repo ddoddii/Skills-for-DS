@@ -6,7 +6,7 @@
 - GCP
 
 ### 파일 설명 
-- translate_juso : [translate juso github](ttps://github.com/ddoddii/translate_juso.git)
+- translate_juso : [translate juso github](https://github.com/ddoddii/translate_juso.git)
 
 ### AWS 서버에서 translate_juso api 를 고정 ip 주소로 실행하기
 
