@@ -65,7 +65,6 @@ async def read_book(book_id : int =Path(gt=0)):
 @app.post("/create_book")
 async def create_book(book_request : BookRequest):
     new_book = Book(**book_request.dict())
-    #print(type(new_book))
     BOOKS.append(find_book_id(new_book))
     return BOOKS
 

@@ -1,6 +1,5 @@
-from fastapi import FastAPI, HTTPException, APIRouter, Body
-from pydantic import BaseModel, Field
-from typing import Optional, List
+from fastapi import FastAPI, HTTPException
+from pydantic import BaseModel
 import logging
 
 from main import sentiment
@@ -39,7 +38,7 @@ class SentimentResult(BaseModel):
 @app.post('/sentiment')
 async def root(payload: SentimentRequest):
     if len(payload.text) <= 3:
-        raise HTTPException(status_code = 401, detail = "Please put in valid text")
+        raise HTTPException(status_code = 201, detail = "Please put in valid text")
         
     try:
         label_1, label_2 ,score_1, score_2 = sentiment(payload.text)
