@@ -6,20 +6,8 @@ import models
 from models import Results
 from database import engine, SessionLocal
 import starlette.status as status
-
-import logging
 from main import sentiment
 
-logger = logging.getLogger(name='MyLog')
-logger.setLevel(logging.INFO)
-
-formatter = logging.Formatter('|%(asctime)s||%(name)s||%(levelname)s|\n%(message)s',
-                            datefmt='%Y-%m-%d %H:%M:%S'
-                            )
-
-stream_handler = logging.StreamHandler() 
-stream_handler.setFormatter(formatter) 
-logger.addHandler(stream_handler) 
 
 app = FastAPI(title = "Soeun's Sentiment Analysis",
             version = "1.0")
