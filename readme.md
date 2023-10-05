@@ -8,5 +8,4 @@
 |8/2|Network & FastAPI|[week3](https://youtu.be/wRhgEzWIrRI)|
 |8/9|AWS & GCP|[week4](https://youtu.be/G7UkYA9xodg)|
 |8/23|FastAPI 심화 & Deploy|[week5](https://youtu.be/GcNaDQp1Rug)|
-|8/30|Jenkins & MLFlow|[week6]|
 

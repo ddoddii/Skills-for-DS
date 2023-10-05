@@ -70,4 +70,4 @@ async def delete_text(db:db_dependency,id : int = Path(gt=0)):
         raise HTTPException(status_code = 404, detail = 'ID not found')
     db.query(Results).filter(Results.id == id).delete()
     db.commit()
-    
+
