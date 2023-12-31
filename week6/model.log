@@ -1,0 +1,41 @@
+INFO:numexpr.utils:Note: NumExpr detected 11 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+INFO:root:Received request : [[1.506e+01 1.983e+01 1.003e+02 ... 2.115e-01 2.834e-01 8.234e-02]
+ [1.513e+01 2.981e+01 9.671e+01 ... 6.575e-02 3.233e-01 6.165e-02]
+ [1.719e+01 2.207e+01 1.116e+02 ... 1.984e-01 3.216e-01 7.570e-02]
+ ...
+ [1.706e+01 2.100e+01 1.118e+02 ... 1.827e-01 2.623e-01 7.599e-02]
+ [1.152e+01 1.493e+01 7.387e+01 ... 9.608e-02 2.664e-01 7.809e-02]
+ [1.299e+01 1.423e+01 8.408e+01 ... 5.850e-02 2.432e-01 1.009e-01]]
+INFO:root:Model models/binary-lr.joblib loaded
+INFO:numexpr.utils:Note: NumExpr detected 11 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+INFO:root:Received request : [[1.729e+01 2.213e+01 1.144e+02 ... 1.528e-01 3.067e-01 7.484e-02]
+ [1.281e+01 1.306e+01 8.129e+01 ... 3.990e-02 1.783e-01 7.319e-02]
+ [1.300e+01 2.182e+01 8.750e+01 ... 2.060e-01 4.378e-01 1.072e-01]
+ ...
+ [1.122e+01 3.381e+01 7.079e+01 ... 3.002e-02 2.911e-01 7.307e-02]
+ [1.500e+01 1.551e+01 9.745e+01 ... 1.379e-01 2.954e-01 8.362e-02]
+ [1.365e+01 1.316e+01 8.788e+01 ... 8.056e-02 2.380e-01 8.718e-02]]
+INFO:root:Model models/binary-lr.joblib loaded
+INFO:numexpr.utils:Note: NumExpr detected 11 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+INFO:root:Received request : [[1.795e+01 2.001e+01 1.142e+02 ... 1.185e-01 4.882e-01 6.111e-02]
+ [1.650e+01 1.829e+01 1.066e+02 ... 9.123e-02 2.394e-01 6.469e-02]
+ [1.005e+01 1.753e+01 6.441e+01 ... 6.499e-02 2.894e-01 7.664e-02]
+ ...
+ [2.116e+01 2.304e+01 1.372e+02 ... 2.009e-01 2.822e-01 7.526e-02]
+ [1.411e+01 1.288e+01 9.003e+01 ... 5.890e-02 2.100e-01 7.083e-02]
+ [1.029e+01 2.761e+01 6.567e+01 ... 9.127e-02 2.226e-01 8.283e-02]]
+INFO:root:Model models/binary-lr.joblib loaded
+WARNING:root:No samples available
+INFO:numexpr.utils:Note: NumExpr detected 11 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+INFO:root:Received request : [[1.026e+01 1.658e+01 6.585e+01 ... 8.333e-02 2.691e-01 9.479e-02]
+ [1.398e+01 1.962e+01 9.112e+01 ... 1.827e-01 3.179e-01 1.055e-01]
+ [1.917e+01 2.480e+01 1.324e+02 ... 1.767e-01 3.176e-01 1.023e-01]
+ ...
+ [1.151e+01 2.393e+01 7.452e+01 ... 9.653e-02 2.112e-01 8.732e-02]
+ [9.000e+00 1.440e+01 5.636e+01 ... 1.389e-02 2.991e-01 7.804e-02]
+ [1.729e+01 2.213e+01 1.144e+02 ... 1.528e-01 3.067e-01 7.484e-02]]
+INFO:root:Model models/binary-lr.joblib loaded
