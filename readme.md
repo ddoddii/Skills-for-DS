@@ -12,4 +12,4 @@
 ## 빅데이터를 지탱하는 기술들 세미나 v2 (2024.01.01 ~ )
 | 날짜  | 강의내용                            | youtube                                              |
 |-----|---------------------------------|------------------------------------------------------|
-| 1/2 | Deploying ML Models with Docker | [week6]() |
+| 1/2 | Deploying ML Models with Docker | [week6](https://youtu.be/HTFxaUfR5HU) |
