@@ -21,4 +21,4 @@
 | 날짜  | 강의내용                            | youtube                                              |
 |-----|---------------------------------|------------------------------------------------------|
 | 1/2 | Deploying ML Models with Docker | [week6](https://youtu.be/HTFxaUfR5HU) |
-|1/8|Github Actions|[week7]()|
+|1/8| CI/CD using Github Actions      |[week7]()|
