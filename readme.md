@@ -21,4 +21,4 @@
 | 날짜  | 강의내용                            | youtube                                              | docs           |
 |-----|---------------------------------|------------------------------------------------------|----------------|
 | 1/2 | Deploying ML Models with Docker | [week6](https://youtu.be/HTFxaUfR5HU) | [week6 docs](https://github.com/ddoddii/skills-for-DS/blob/main/seminar/6%EC%A3%BC%EC%B0%A8%EC%84%B8%EB%AF%B8%EB%82%98.pdf) |
-|1/8| CI/CD using Github Actions      |[week7]()| [week7 docs](https://github.com/ddoddii/skills-for-DS/blob/main/seminar/7%EC%A3%BC%EC%B0%A8%EC%84%B8%EB%AF%B8%EB%82%98.pdf) |
+|1/8| CI/CD using Github Actions      |[week7](https://youtu.be/VCVFE4rQfnM)| [week7 docs](https://github.com/ddoddii/skills-for-DS/blob/main/seminar/7%EC%A3%BC%EC%B0%A8%EC%84%B8%EB%AF%B8%EB%82%98.pdf) |
